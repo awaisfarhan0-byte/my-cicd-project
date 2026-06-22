@@ -1,0 +1,28 @@
+{
+  "name": "my-cicd-project-1",
+  "version": "1.0.0",
+  "description": "Internship CI/CD task Dev ops",
+  "main": "index.js",
+  "scripts": {
+  "lint": "eslint .",
+  "test": "jest",
+  "build": "echo Build complete"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awaisfarhan0-byte/my-cicd-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/awaisfarhan0-byte/my-cicd-project/issues"
+  },
+  "homepage": "https://github.com/awaisfarhan0-byte/my-cicd-project#readme",
+  "devDependencies": {
+    "@eslint/json": "^2.0.0",
+    "eslint": "^10.5.0",
+    "jest": "^30.4.2"
+  }
+}
