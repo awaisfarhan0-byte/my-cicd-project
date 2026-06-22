@@ -22,11 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install ESLint globally
-        run: npm install -g eslint
-
       - name: Run linter
-        run: eslint --ext .js .
+        run: npx eslint math.js
 
       - name: Run tests
         run: npx jest --passWithNoTests
